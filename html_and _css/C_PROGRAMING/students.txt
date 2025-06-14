@@ -1,0 +1,10 @@
+Student 1:
+Name: pritam
+Age: 12
+Roll Number: 220
+
+Student 2:
+Name: ashtoush
+Age: 14
+Roll Number: 190
+
