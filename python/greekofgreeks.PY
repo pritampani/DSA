@@ -1729,11 +1729,11 @@ print(fg(3,[3,2,1]))
 
 
 
-a=bin(12)[2:]
-for i in range(len(a)-1,-1,-1):
-    print(i)
+# a=bin(12)[2:]
+# for i in range(len(a)-1,-1,-1):
+#     print(i)
 
 
-
+def sum
 
 
