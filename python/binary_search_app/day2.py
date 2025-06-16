@@ -51,6 +51,35 @@
 
 
 
+# Find a smallest divisor for a given threshold
+
+# import math
+# class Solution:
+#     def smallestDivisor(self,arr,k):
+#         return self.binarysearch(arr,k)
+
+#     def binarysearch(self,arr,k):
+#         l=1
+#         h=max(arr)
+#         ans=float('inf')
+#         while l<=h:
+#             mid=(l+h)//2
+#             if self.ispossible(arr,k,mid):
+#                 ans=min(ans,mid)
+#                 h=mid-1
+#             else:
+#                 l=mid+1
+#         return ans 
+#     def ispossible(self,arr,k,mid):
+#         sumo=0
+#         for i in range(len(arr)):
+#             sumo+=math.ceil(arr[i]/mid)
+#         return sumo<=k
+# a=Solution()
+# print(a.smallestDivisor([1, 2, 5, 9],6))
+
+
+
 
 
 
