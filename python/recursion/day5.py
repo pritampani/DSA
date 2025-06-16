@@ -45,7 +45,24 @@
 
 
 
-#compute power
+#compute power a**b
 
-class Solution:
-    
+# class Solution:
+#     def powr(self,a,b):
+#         if b==0:
+#             return 1
+#         c=1
+#         i=0
+#         return self.helper(a,b,i,c)
+#     def helper(self,a,b,i,c):
+#         if i==b:
+#             return c
+#         return self.helper(a,b,i+1,c*a)
+# a=Solution()
+# print(a.powr(2,3))
+
+
+
+
+
+

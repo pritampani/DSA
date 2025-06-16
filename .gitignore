@@ -1,0 +1,4 @@
+myenv
+.COMMIT_EDITMSG.swp
+.DS_Store
+.vscode
