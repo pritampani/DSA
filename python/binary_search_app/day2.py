@@ -25,25 +25,34 @@
 
 #find max in the array
 
-class Solution:
-    def findmax(self,arr):
-        l=0
-        h=len(arr)-1
-        ans=-1
-        while l<=h:
-            mid=(l+h)//2
-            ans=max(arr[mid],ans)
-            if arr[mid]<arr[l]:
-                h=mid-1
-            else:
-                l=mid+1
-        return ans
+# class Solution:
+#     def findmax(self,arr):
+#         l=0
+#         h=len(arr)-1
+#         ans=-1
+#         while l<=h:
+#             mid=(l+h)//2
+#             ans=max(arr[mid],ans)
+#             if arr[mid]<arr[l]:
+#                 h=mid-1
+#             else:
+#                 l=mid+1
+#         return ans
 
-a=Solution()
+# a=Solution()
     
-print(a.findmax([5, 6, 7, 8, 9, 1, 2, 3, 4]))  # Output: 1
-print(a.findmax([1, 2, 3, 4, 5]))              # Output: 1
-print(a.findmax([3, 4, 5, 1, 2]))              # Output: 1
-print(a.findmax([2, 1]))                       # Output: 1
-print(a.findmax([1]))                          # Output: 1
-print(a.findmax([3, 1, 2]))
+# print(a.findmax([5, 6, 7, 8, 9, 1, 2, 3, 4]))  # Output: 1
+# print(a.findmax([1, 2, 3, 4, 5]))              # Output: 1
+# print(a.findmax([3, 4, 5, 1, 2]))              # Output: 1
+# print(a.findmax([2, 1]))                       # Output: 1
+# print(a.findmax([1]))                          # Output: 1
+# print(a.findmax([3, 1, 2]))
+
+
+
+
+
+
+
+        
+

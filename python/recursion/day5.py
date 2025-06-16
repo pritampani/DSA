@@ -62,7 +62,23 @@
 # print(a.powr(2,3))
 
 
+class Solution():
+    def reversearr(self,arr):
+        if not arr:
+            return arr
+        i=0
+        j=len(arr)-1
+        return self.helper(arr,i,j)
 
+    def helper(self,arr,i,j):
+        if i>j:
+            return arr
+        arr[i],arr[j]=arr[j],arr[i]
+        return self.helper(arr,i+1,j-1)
+
+a=Solution()
+print(a.reversearr([1,2,3,4,5,6,7]))
+print(a.reversearr([1,2,3,4,5,6]))
 
 
 
