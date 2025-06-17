@@ -21,27 +21,58 @@
 
 #c4.9 write a short recursivve python function that finds the minimum and the maximum  values in from a array without using of loop
 
-class Solution:
-    def maxminval(self,arr):
-        if len(arr)==0:
-            return ()
-        i=0
-        n=len(arr)
-        val1=arr[0]
-        val2=arr[0]
-        return self.maxval(arr,i,n,val1),self.minval(arr,i,n,val2)
-    def maxval(self,arr,i,n,val):
-        if i==n:
-            return val
-        return self.maxval(arr,i+1,n,max(val,arr[i]))
-    def minval(self,arr,i,n,val):
-        if i==n:
-            return val
-        return self.minval(arr,i+1,n,min(val,arr[i]))
+# class Solution:
+#     def maxminval(self,arr):
+#         if len(arr)==0:
+#             return ()
+#         i=0
+#         n=len(arr)
+#         val1=arr[0]
+#         val2=arr[0]
+#         return self.maxval(arr,i,n,val1),self.minval(arr,i,n,val2)
+#     def maxval(self,arr,i,n,val):
+#         if i==n:
+#             return val
+#         return self.maxval(arr,i+1,n,max(val,arr[i]))
+#     def minval(self,arr,i,n,val):
+#         if i==n:
+#             return val
+#         return self.minval(arr,i+1,n,min(val,arr[i]))
     
-a=Solution()
-print(a.maxminval([1,2,3,4,5,6,7,8]))
-print(a.maxminval([1, 2, 3, 4, 5, 6, 7, 8]))   # (8,1)
-print(a.maxminval([-5, -3, -10]))              # (-3,-10)
-print(a.maxminval([7]))                        # (7,7)
-print(a.maxminval([])) 
+# a=Solution()
+# print(a.maxminval([1,2,3,4,5,6,7,8]))
+# print(a.maxminval([1, 2, 3, 4, 5, 6, 7, 8]))   # (8,1)
+# print(a.maxminval([-5, -3, -10]))              # (-3,-10)
+# print(a.maxminval([7]))                        # (7,7)
+# print(a.maxminval([])) 
+
+
+
+
+#4.12 computer the product of m*n using only addition and substraction
+
+# class Solution:
+#     def productmn(self, m, n):
+#         if m == 0 or n == 0:
+#             return 0
+#         if n < 0:
+#             # Convert to positive and negate result
+#             return -self.productmn(m, -n)
+#         return self.helper(m, n, 0)
+
+#     def helper(self, m, n, pro):
+#         if n == 0:
+#             return pro
+#         return self.helper(m, n - 1, pro + m)
+
+# a = Solution()
+# print(a.productmn(2, 4))     # 8
+# print(a.productmn(-2, 4))    # -8
+# print(a.productmn(2, -4))    # -8
+# print(a.productmn(-2, -4))   # 8
+# print(a.productmn(0, 5))     # 0
+# print(a.productmn(5, 0))     # 0 
+
+
+
+
