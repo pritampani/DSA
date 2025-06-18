@@ -78,22 +78,42 @@
 
 #Tower of Hanoi
 
+# class Solution:
+#     def towerhanoi(self, n, A="A", B="B", C="C"):
+#         return self.helper(n, A, B, C)
+
+#     def helper(self, n, source, auxiliary, target):
+#         if n == 1:
+#             # Move 1 disk from source to target
+#             return 1
+#         # Move n-1 disks from source to auxiliary using target as buffer
+#         res = 2*self.helper(n - 1, source, target, auxiliary)+1
+#         # Move 1 disk from source to target
+#         # res += 1
+#         # # Move n-1 disks from auxiliary to target using source as buffer
+#         # res += self.helper(n - 1, auxiliary, source, target)
+#         return res
+
+# a = Solution()
+# print(a.towerhanoi(3))  
+
+
+
 class Solution:
     def towerhanoi(self, n, A="A", B="B", C="C"):
-        return self.helper(n, A, B, C)
+        self.helper(n, A, B, C)
 
     def helper(self, n, source, auxiliary, target):
         if n == 1:
-            # Move 1 disk from source to target
-            return 1
-        # Move n-1 disks from source to auxiliary using target as buffer
-        res = self.helper(n - 1, source, target, auxiliary)
-        # Move 1 disk from source to target
-        res += 1
-        # Move n-1 disks from auxiliary to target using source as buffer
-        res += self.helper(n - 1, auxiliary, source, target)
-        return res
+            print(f"Move disk 1 from {source} to {target}")
+            return
+        self.helper(n - 1, source, target, auxiliary)
+        print(f"Move disk {n} from {source} to {target}")
+        self.helper(n - 1, auxiliary, source, target)
 
 a = Solution()
-print(a.towerhanoi(3))  
+a.towerhanoi(3)
+
+
+
 
