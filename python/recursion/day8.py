@@ -92,20 +92,24 @@
 
 # write a python function so that it will rearrange all the even value 
 
-class Solution:
-    def rearrange(self,arr):
-        if len(arr)<=1:
-            return []
-        i=0
-        j=len(arr)-1
-        return self.helper(arr,i,j)
-    def helper(self,arr,i,j):
-        if i>=j:
-            return arr
-        if arr[j]%2==0 and arr[i]%2!=0:
-            arr[j],arr[i]=arr[i],arr[j]
-            return self.helper(arr,i+1,j-1)
-        else:
-            return self.helper(arr,i+1,j-1)
-a=Solution()
-print(a.rearrange([1,9,2,8,3,7,4,6,5]))
+# class Solution:
+#     def rearrange(self,arr):
+#         if len(arr)<=1:
+#             return []
+#         i=0
+#         j=len(arr)-1
+#         return self.helper(arr,i,j)
+#     def helper(self,arr,i,j):
+#         if i>=j:
+#             return arr
+#         if arr[j]%2==0 and arr[i]%2!=0:
+#             arr[j],arr[i]=arr[i],arr[j]
+#             return self.helper(arr,i+1,j-1)
+#         else:
+#             return self.helper(arr,i+1,j-1)
+# a=Solution()
+# print(a.rearrange([1,9,2,8,3,7,4,6,5]))
+
+
+
+
