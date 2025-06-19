@@ -54,3 +54,35 @@
 # print(a.check_reverse('abba'))
 # print(a.check_reverse('chiku'))
 # print(a.check_reverse(''))
+
+
+
+
+
+
+#write a python function which can show how many vowels and consonant are there in a string
+
+class Solution:
+    def countvowleandconsonant(self,s):
+        if s=='':
+            return (0,0)
+        i=len(s)-1
+        v=0
+        c=0
+        return self.helper(s,i,v,c)
+    def helper(self,s,i,v,c):
+        if i==-1:
+            return v,c
+        if s[i] in ('a','e','i','o','u','A','E','I','O','U'):
+            return self.helper(s,i-1,v+1,c)
+        elif s[i].isalpha():
+            return self.helper(s,i-1,v,c+1)
+        else:
+            return self.helper(s,i-1,v,c)
+
+a = Solution()
+print(a.countvowleandconsonant('aeiouqwrt'))  # (5,4)
+print(a.countvowleandconsonant('123'))        # (0,0)
+print(a.countvowleandconsonant('hello!'))     # (2,3)
+print(a.countvowleandconsonant(' hi '))       # (1,1)
+print(a.countvowleandconsonant('')) 
