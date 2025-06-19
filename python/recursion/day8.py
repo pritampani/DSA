@@ -37,20 +37,20 @@
 
 # check if the string is palandrom or not
 
-class Solution:
-    def check_reverse(self,s):
-        if s=='':
-            return True
-        i=len(s)-1
-        res=''
-        res=self.helper(s,i,res)
-        return s==res
-    def helper(self,s,i,res):
-        if i==-1:
-            return res
-        res+=s[i]
-        return self.helper(s,i-1,res)
-a=Solution()
-print(a.check_reverse('abba'))
-print(a.check_reverse('chiku'))
-print(a.check_reverse(''))
+# class Solution:
+#     def check_reverse(self,s):
+#         if s=='':
+#             return True
+#         i=len(s)-1
+#         res=''
+#         res=self.helper(s,i,res)
+#         return s==res
+#     def helper(self,s,i,res):
+#         if i==-1:
+#             return res
+#         res+=s[i]
+#         return self.helper(s,i-1,res)
+# a=Solution()
+# print(a.check_reverse('abba'))
+# print(a.check_reverse('chiku'))
+# print(a.check_reverse(''))
