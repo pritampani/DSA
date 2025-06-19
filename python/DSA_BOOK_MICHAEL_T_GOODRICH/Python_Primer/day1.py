@@ -61,6 +61,15 @@
 # print(a.sumofallthesqure(3))
 
 
+#1.6,1.7
+# class Solution:
+#     def sumofallthesqure(self,n):
+#         arr=[i**2 for i in range(1,n) if i%2!=0 ]
+#         return sum(arr)
+
+    
+# a=Solution()
+# print(a.sumofallthesqure(5))
 
 
 
