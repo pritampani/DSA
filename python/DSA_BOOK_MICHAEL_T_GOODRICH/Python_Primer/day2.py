@@ -6,3 +6,108 @@
 #         return arr
 # a=Solution()
 # print(a.listcompresion(9))
+
+
+#1.14]
+
+class Solution:
+    def checkdistinct(self,arr):
+        if len(arr)==0:
+            return set()
+        seen=set()
+        for i in range(len(arr)):
+            for j in range(len(arr)):
+                if (arr[i]*arr[j])%2!=0 and (arr[i],arr[j]) not in seen:
+                    seen.add((arr[i],arr[j]))
+        return seen
+a=Solution()
+print(a.checkdistinct([1,2,3,4,5,6,7,7,8,9]))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
