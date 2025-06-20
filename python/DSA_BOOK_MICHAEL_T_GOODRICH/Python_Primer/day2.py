@@ -59,6 +59,16 @@
 
 
 
+#1.19
+
+class Solution:
+    def printallalphabate(self):
+        arr=[chr(i) for i in range(97,123)]
+        return arr
+a=Solution()
+print(a.printallalphabate())
+
+
 
 
 
