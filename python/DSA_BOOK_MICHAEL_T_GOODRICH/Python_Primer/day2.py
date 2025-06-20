@@ -26,22 +26,37 @@
 
 
 #1.15
-class Solution:
-    def checkforelemntrepetations(self,arr):
-        if len(arr)==0:
-            return 'no elemnet is in the array'
-        seen=set()
-        for i in range(len(arr)):
-            if arr[i] not in seen:
-                seen.add(arr[i])
-            else:
-                return 'element is repeted'
-        return 'no element is repeting'
-a=Solution()
+# class Solution:
+#     def checkforelemntrepetations(self,arr):
+#         if len(arr)==0:
+#             return 'no elemnet is in the array'
+#         seen=set()
+#         for i in range(len(arr)):
+#             if arr[i] not in seen:
+#                 seen.add(arr[i])
+#             else:
+#                 return 'element is repeted'
+#         return 'no element is repeting'
+# a=Solution()
 
-print(a.checkforelemntrepetations([1,2,3,4,5,6,7]))
-print(a.checkforelemntrepetations([1,2,3,4,5,6,6,7]))
-print(a.checkforelemntrepetations([]))
+# print(a.checkforelemntrepetations([1,2,3,4,5,6,7]))
+# print(a.checkforelemntrepetations([1,2,3,4,5,6,6,7]))
+# print(a.checkforelemntrepetations([]))
+
+
+
+
+
+#1.18
+
+# class Solution:
+#     def listcompreshsion(self,n):
+#         arr=[i*(i+1) for i in range(n+1)]
+#         return arr
+# a=Solution()
+# print(a.listcompreshsion(9))
+
+
 
 
 
