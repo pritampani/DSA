@@ -61,16 +61,26 @@
 
 #1.19
 
+# class Solution:
+#     def printallalphabate(self):
+#         # arr=[chr(i) for i in range(97,123)]
+#         arr=[]
+#         for i in range(97,123):
+#             arr.append(chr(i))
+#         return arr
+# a=Solution()
+# print(a.printallalphabate())
+
+
+
 class Solution:
-    def printallalphabate(self):
-        arr=[chr(i) for i in range(97,123)]
+    def productofab(self,a,b):
+        if a==0 or b==0:
+            return []
+        arr=[a[i]*b[i] for i in range(len(a))]
         return arr
 a=Solution()
-print(a.printallalphabate())
-
-
-
-
+print(a.productofab([1,2,3],[4,5,6]))
 
 
 
