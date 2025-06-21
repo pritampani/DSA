@@ -73,14 +73,14 @@
 
 
 
-class Solution:
-    def productofab(self,a,b):
-        if a==0 or b==0:
-            return []
-        arr=[a[i]*b[i] for i in range(len(a))]
-        return arr
-a=Solution()
-print(a.productofab([1,2,3],[4,5,6]))
+# class Solution:
+#     def productofab(self,a,b):
+#         if a==0 or b==0:
+#             return []
+#         arr=[a[i]*b[i] for i in range(len(a))]
+#         return arr
+# a=Solution()
+# print(a.productofab([1,2,3],[4,5,6]))
 
 
 
