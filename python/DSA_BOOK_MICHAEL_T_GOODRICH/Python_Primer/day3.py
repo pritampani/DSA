@@ -22,16 +22,29 @@
 
 #1.24
 
-class Solution:
-    def countvowle(self,s):
-        c=0
-        for i in s:
-            if i in ('a','e','i','o','u','A','E','I','O','U'):
-                c+=1
-        return c
-a=Solution()
-print(a.countvowle('aeoiuAEIOUsdfghjklzxvbnm')) #10
+# class Solution:
+#     def countvowle(self,s):
+#         c=0
+#         for i in s:
+#             if i in ('a','e','i','o','u','A','E','I','O','U'):
+#                 c+=1
+#         return c
+# a=Solution()
+# print(a.countvowle('aeoiuAEIOUsdfghjklzxvbnm')) #10
 
+
+
+
+class Solution:
+    def removeallpunctutions(self,s):
+        res=''
+        for i in range(len(s)):
+            if s[i] in (',',';',"'",'.'):
+                continue
+            res+=s[i]
+        return res
+a=Solution()
+print(a.removeallpunctutions("let's try, Mike."))
 
 
 
