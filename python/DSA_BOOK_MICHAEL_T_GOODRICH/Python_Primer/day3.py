@@ -35,16 +35,20 @@
 
 
 
-class Solution:
-    def removeallpunctutions(self,s):
-        res=''
-        for i in range(len(s)):
-            if s[i] in (',',';',"'",'.'):
-                continue
-            res+=s[i]
-        return res
-a=Solution()
-print(a.removeallpunctutions("let's try, Mike."))
+
+
+#1.25
+
+# class Solution:
+#     def removeallpunctutions(self,s):
+#         res=''
+#         for i in range(len(s)):
+#             if s[i] in (',',';',"'",'.'):
+#                 continue
+#             res+=s[i]
+#         return res
+# a=Solution()
+# print(a.removeallpunctutions("let's try, Mike."))
 
 
 
