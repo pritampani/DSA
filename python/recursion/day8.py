@@ -111,5 +111,19 @@
 # print(a.rearrange([1,9,2,8,3,7,4,6,5]))
 
 
-
+class Solution:
+    def issorted(self,arr):
+        if len(arr)==0 or len(arr)==1:
+            return True
+        i=0
+        return self.helper(arr,i)
+    def helper(self,arr,i):
+        if i==len(arr)-1:
+            return True
+        if arr[i]<=arr[i+1]:
+            return self.helper(arr,i+1)
+        return False
+a=Solution()
+print(a.issorted([1,2,3,4,5]))
+print(a.issorted([3,1,2]))
 
