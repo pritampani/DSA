@@ -42,3 +42,11 @@ class Solution:
 
 a=Solution()
 print(a.Max_histogram_area([6,2,5,4,5,1,6]))
+
+
+
+
+
+
+
+
