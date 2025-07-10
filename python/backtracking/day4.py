@@ -24,3 +24,5 @@
 # print(a.palinParts("abcba"))
 # print(a.palinParts("aha"))
 
+
+
