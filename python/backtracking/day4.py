@@ -26,3 +26,26 @@
 
 
 
+
+
+
+
+def fun(stk):
+    i=0
+    return hlper(stk,i)
+
+def hlper(stk,i):
+    #base??
+    if i==len(stk):
+        return 0
+
+    hlper(stk,i+1)
+    print(stk[i])
+
+
+#main
+stk=[1,2,3,4,5]
+fun(stk)
+
+
+
