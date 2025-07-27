@@ -46,7 +46,6 @@ class Solution:
             temp=n%10
             if temp%2==0:
                 even+=1
-
             else:
                 odd+=1
             sm+=temp
