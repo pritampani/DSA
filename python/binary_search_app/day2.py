@@ -1,4 +1,4 @@
-#find min from sortd roatated array
+#find min from sortd roatated array(Pritams approach)
 
 # class Solution:
 #     def findmin(self,arr):
@@ -22,6 +22,32 @@
 # print(a.findmin([3, 1, 2]))
 
 
+
+
+
+class Solution:
+    def findmin(self,arr):
+        low = 0
+        high = len(arr) - 1
+
+        while low < high:
+            mid = (low + high) // 2
+
+            # If mid element is greater than the high element,
+            # the minimum must be in the right half
+            if arr[mid] > arr[high]:
+                low = mid + 1
+            else:
+                high = mid  # Minimum is at mid or in the left half
+
+        return arr[low]
+a = Solution()
+print(a.findmin([5, 6, 7, 8, 9, 1, 2, 3, 4]))  # Output: 1
+print(a.findmin([1, 2, 3, 4, 5]))              # Output: 1
+print(a.findmin([3, 4, 5, 1, 2]))              # Output: 1
+print(a.findmin([2, 1]))                       # Output: 1
+print(a.findmin([1]))                          # Output: 1
+print(a.findmin([3, 1, 2]))
 
 #find max in the array
 
