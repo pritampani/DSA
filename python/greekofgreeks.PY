@@ -1734,6 +1734,3 @@ print(fg(3,[3,2,1]))
 #     print(i)
 
 
-def sum
-
-
