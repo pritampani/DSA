@@ -36,6 +36,20 @@
 
 
 
+# class Solution:
+#     def min_house(self,r,unit,arr):
+#         if len(arr)==0:
+#             return -1
+
+#         if sum(arr)<r*unit:
+#             return -1
+        
+#         s=0
+#         requirment=r*unit
+#         for i in arr:
+#             s+=i
+#             if s>=requirment:
+#                 return i
 
 
 
