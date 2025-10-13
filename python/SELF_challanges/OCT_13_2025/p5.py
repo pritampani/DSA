@@ -2,7 +2,7 @@
 # Given a string with words and numbers mixed, find the sum of all numbers in the string.
 
 class Solution():
-    def p4(self,s):
+    def p5(self,s):
         
         c=0
         for i in range(len(s)):
@@ -14,4 +14,4 @@ class Solution():
 a=Solution()
 
 s='jj222j4'
-print(a.p4(s))
+print(a.p5(s))
