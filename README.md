@@ -1,1 +1,3 @@
 # DSA
+
+# EAT->SLEEP->CODE->REPEAT
