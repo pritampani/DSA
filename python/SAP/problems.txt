@@ -32,6 +32,7 @@ Focus: basics, patterns, arrays, strings, sorting, searching, logic.
 	3.	Pyramid pattern
 	4.	Diamond pattern
 	5.	Number pyramid
+    
 
 🔹 Arrays
 	6.	Find largest and smallest element

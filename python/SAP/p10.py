@@ -5,7 +5,10 @@
 
 class Solution:
     def power(self,n,expo):
-        return n**expo
+        res=1
+        for i in range(expo):
+            res*=n
+        return res
 
 a=Solution()
 print(a.power(2,3))
