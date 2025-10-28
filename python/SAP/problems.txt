@@ -1,0 +1,162 @@
+🔹 Strong Basics
+🔹 Practice Coding
+🔹 Latest Trends & Technologies
+🔹 Logical Approach & Problem-Solving Attitude
+🔹 Accomplishment-Based Questions
+
+⸻
+
+🧩 Technical Interview 1 – Foundational (50 Problems)
+
+Focus: basics, patterns, arrays, strings, sorting, searching, logic.
+
+🧠 1. Strong Basics (10 problems)
+	1.	Reverse a number
+	2.	Check if a number is palindrome
+	3.	Find factorial of a number
+	4.	Check prime number
+	5.	Find GCD & LCM of two numbers
+	6.	Count digits in a number
+	7.	Fibonacci series
+	8.	Armstrong number check
+	9.	Sum of digits
+	10.	Power of a number without using pow()
+
+⸻
+
+💻 2. Practice Coding (15 problems)
+
+🔹 Pattern Printing
+	1.	Right-angled triangle pattern
+	2.	Inverted triangle pattern
+	3.	Pyramid pattern
+	4.	Diamond pattern
+	5.	Number pyramid
+
+🔹 Arrays
+	6.	Find largest and smallest element
+	7.	Reverse an array
+	8.	Find second largest element
+	9.	Remove duplicates from sorted array
+	10.	Move all zeros to end
+
+🔹 Strings
+	11.	Reverse a string
+	12.	Check if string is palindrome
+	13.	Count vowels and consonants
+	14.	Find frequency of each character
+	15.	Remove spaces from a string
+
+⸻
+
+⚙️ 3. Sorting & Searching (10 problems)
+	1.	Implement Bubble Sort
+	2.	Implement Selection Sort
+	3.	Implement Insertion Sort
+	4.	Implement Merge Sort
+	5.	Implement Quick Sort
+	6.	Binary Search (iterative)
+	7.	Binary Search (recursive)
+	8.	Find first and last occurrence using binary search
+	9.	Search element in rotated sorted array
+	10.	Find floor and ceil in sorted array
+
+⸻
+
+🔍 4. Logical & Problem-Solving (10 problems)
+	1.	Find missing number in 1 to N
+	2.	Find duplicate element in array
+	3.	Majority element
+	4.	Find intersection of two arrays
+	5.	Find union of two arrays
+	6.	Count pairs with given sum
+	7.	Kadane’s algorithm (maximum subarray sum)
+	8.	Find leaders in array
+	9.	Rotate array by k positions
+	10.	Move negative numbers to one side
+
+⸻
+
+🏆 5. Be Ready to Talk about Accomplishments (5 discussion-type)
+
+These are not coding problems but likely conceptual questions:
+
+	1.	Explain your best project’s logic and challenges.
+	2.	How did you debug a tough issue in code?
+	3.	What algorithm or data structure are you most comfortable with?
+	4.	What was your biggest learning from any project?
+	5.	Describe how you optimized any piece of code.
+
+⸻
+
+🚀 Technical Interview 2 – Advanced (50 Problems)
+
+Focus: DSA, optimization, real logic, OOP, and applied tech concepts.
+
+💡 1. Arrays & Binary Search (10 problems)
+	1.	Find peak element
+	2.	Find element in infinite sorted array
+	3.	Find square root using binary search
+	4.	Count 1s in sorted binary array
+	5.	Search in bitonic array
+	6.	Allocate minimum pages (binary search on answer)
+	7.	Aggressive cows problem
+	8.	Minimum difference element in sorted array
+	9.	Find rotation count in rotated array
+	10.	Median of two sorted arrays
+
+⸻
+
+🔢 2. Sorting, Hashing, and Two Pointers (10 problems)
+	1.	Sort 0s, 1s, 2s (Dutch National Flag)
+	2.	Merge two sorted arrays without extra space
+	3.	Intersection of two sorted arrays
+	4.	Count inversions in array
+	5.	Find all pairs with difference k
+	6.	Longest consecutive sequence
+	7.	3Sum problem
+	8.	4Sum problem
+	9.	Group anagrams
+	10.	Find subarray with given sum (positive numbers)
+
+⸻
+
+🧮 3. Recursion & Backtracking (10 problems)
+	1.	Factorial using recursion
+	2.	Fibonacci using recursion
+	3.	Print all subsequences of string
+	4.	Generate all permutations
+	5.	Rat in a maze
+	6.	N-Queens problem
+	7.	Sudoku solver
+	8.	Subset sum problem
+	9.	Combination sum
+	10.	Palindrome partitioning
+
+⸻
+
+🧰 4. Linked List, Stack, Queue (10 problems)
+	1.	Reverse a linked list
+	2.	Detect loop in linked list
+	3.	Find middle element
+	4.	Merge two sorted linked lists
+	5.	Remove nth node from end
+	6.	Implement stack using array
+	7.	Implement queue using stack
+	8.	Next greater element
+	9.	Valid parentheses check
+	10.	Evaluate postfix expression
+
+⸻
+
+⚙️ 5. OOP + System + Miscellaneous (10 problems)
+	1.	Difference between compile-time & runtime polymorphism
+	2.	Explain inheritance and abstraction with example
+	3.	What is encapsulation and why use it?
+	4.	What is constructor overloading?
+	5.	What is virtual function in C++?
+	6.	Explain shallow vs deep copy
+	7.	What is static variable and function?
+	8.	What are access specifiers?
+	9.	What is time complexity of Merge Sort?
+	10.	Explain space vs time trade-off.
