@@ -20,3 +20,5 @@ print(a.missing_using_xor([2, 3, 1, 5]))     # 4
 print(a.missing_using_xor([1]))              # 2
 print(a.missing_using_xor([2]))              # 1
 print(a.missing_using_xor([1, 2, 3, 4, 6]))  # 5
+
+
