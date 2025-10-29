@@ -184,21 +184,10 @@ Focus: DSA, optimization, real logic, OOP, and applied tech concepts.
 
 ⸻
 
-🧮 2. Sorting & Searching (4 Problems)
-	7.	Binary Search (Iterative)
-	•	Search target in sorted array, return index or -1.
-	8.	Find Floor and Ceil of X in Sorted Array
-	•	Example: [1,2,4,6,10], x=5 → floor=4, ceil=6
-	9.	Count Occurrences of an Element in Sorted Array
-	•	Use binary search to find first and last occurrence.
-	10.	Find Peak Element in Array
-
-	•	Element greater than both neighbors.
-	•	Use binary search for O(log n).
 
 ⸻
 
-🔠 3. String Problems (3 Problems)
+3. String Problems (3 Problems)
 	11.	Check if Two Strings are Anagrams
 
 	•	Example: "listen", "silent" → True
@@ -207,18 +196,5 @@ Focus: DSA, optimization, real logic, OOP, and applied tech concepts.
 
 	•	Input: "I love coding" → "coding love I"
 
-	13.	Count Frequency of Characters in a String
-
-	•	Input: "hello" → {'h':1,'e':1,'l':2,'o':1}
 
 ⸻
-
-🧩 4. Logical / Miscellaneous (2 Problems)
-	14.	Find Intersection of Two Arrays
-
-	•	Input: [1,2,2,3,4], [2,3,5] → [2,3]
-
-	15.	Majority Element (appears > n/2 times)
-
-	•	Example: [3,3,4,2,3,3,5,3] → 3
-	•	Use Moore’s Voting Algorithm (O(n)).
