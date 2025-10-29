@@ -1,6 +1,6 @@
 #Detect loop in linked list
 
-#Reverse a linked list
+
 
 class Node:
     def __init__(self, data):
