@@ -175,26 +175,73 @@ Focus: DSA, optimization, real logic, OOP, and applied tech concepts.
 	3.	Move All Zeroes to End
 	•	Maintain relative order.
 	•	Example: [0, 1, 0, 3, 12] → [1, 3, 12, 0, 0]
-	4.	Remove Duplicates from Sorted Array
-	•	Modify array in-place and return new length.
-	5.	Find Second Largest Element in Array
-	•	Without sorting the array.
-	6.	Rotate Array by K Positions (Right Rotation)
-	•	Example: [1,2,3,4,5], k=2 → [4,5,1,2,3]
-
-⸻
 
 
 ⸻
 
-3. String Problems (3 Problems)
-	11.	Check if Two Strings are Anagrams
-
-	•	Example: "listen", "silent" → True
 
 	12.	Reverse Words in a String
 
 	•	Input: "I love coding" → "coding love I"
 
 
+
+
+🔁 Replacement: Sorting & Searching (4 New Problems)
+
+
+
+7. Search Insert Position
+
+Given a sorted array and a target, return the index if the target is found.
+If not, return the index where it would be inserted to keep the array sorted.
+
+Example:
+
+arr = [1, 3, 5, 6]
+x = 5 → Output: 2
+x = 2 → Output: 1
+
+Concept: Binary search variant.
+
 ⸻
+
+8. Find First and Last Occurrence of Target
+
+Given sorted array, find first and last index of a given element (without counting frequency directly).
+
+Example:
+
+arr = [2, 4, 4, 4, 5, 6]
+target = 4 → Output: [1, 3]
+
+Concept: Modified binary search.
+
+⸻
+
+9. Find Minimum Element in Rotated Sorted Array
+
+Array is sorted but rotated; find the smallest element.
+
+Example:
+
+arr = [4,5,6,7,0,1,2] → Output: 0
+
+Concept: Binary search on rotated array.
+
+⸻
+
+10. Search Element in Rotated Sorted Array
+
+Given rotated sorted array, find target index.
+
+Example:
+
+arr = [4,5,6,7,0,1,2], target=0 → Output: 4
+
+Concept: Divide search space into sorted halves.
+
+⸻
+
+Would you like me to give Python implementations for these 4 (clean and short, same logic as real interview)?
+That way you can practice them immediately.
