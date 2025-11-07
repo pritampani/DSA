@@ -55,4 +55,24 @@
 
 
 
+class Solution:
+    def kapkar(self,n,d):
+        res=[]
+        for i in range(d,n+1):
+            if self.iskapka(i)==self.iskapka(i*i):
+                res.append(i)
+        return res
+
+
+    def iskapka(self,n):
+        s=0
+        while n>0:
+            d=n%10
+            s+=d
+            n//=10
+        return s
+    
+
+a=Solution()
+print(a.kapkar(100,1))
 

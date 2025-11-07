@@ -43,3 +43,18 @@
 
 ###########################################################################################################################################################
 
+
+
+
+
+
+
+# contain an alpha numeric charateres A-Z and 0-9
+# the license plate must have chartate in between 2-10 below 2 and above 10 is invalid charater 
+# all charater must be in upper cases
+
+# the license plate must have one digit present in it less that one it is invalid
+
+# a valid license number can se seperated into  2 to 3 charater seperated by -
+
+
