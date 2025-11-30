@@ -1,0 +1,115 @@
+✅ 100 PREFIX SUM PROBLEMS (Easy / Medium / Hard)
+
+
+🟢 EASY (30 Problems)
+
+Focus: Basic prefix sum usage, range queries, cumulative sum, difference arrays.
+	1.	Running Sum of 1D Array
+	2.	Subarray Sum Equals K (count)
+	3.	Find Pivot Index
+	4.	Minimum Value to Get Positive Step-by-Step Sum
+	5.	Number of Ways to Split Array Into Three Subarrays With Equal Sum
+	6.	Range Sum Query – Immutable
+	7.	Check if Array Is a Valid Mountain
+	8.	Maximum Ascending Subarray Sum
+	9.	Find the Highest Altitude
+	10.	Count Items Matching a Given Rule
+	11.	Left and Right Sum Differences
+	12.	Subarrays With Sum Zero
+	13.	Sum of All Odd Length Subarrays
+	14.	Number of Good Pairs
+	15.	Balanced Substrings (equal 0 and 1)
+	16.	Count of Even and Odd Number Prefixes
+	17.	Subarray Sum Multiple of K (Simple version)
+	18.	K-radius Subarray Averages
+	19.	Count Negative Numbers in Sorted Matrix (Prefix row sums)
+	20.	Range Query Sum using Prefix Sum Matrix (2D easy version)
+	21.	Calculate Scores After Prefix Operations
+	22.	Difference Array for Range Update (Basic)
+	23.	Check if Subarray with Given Sum Exists
+	24.	Number of Subarrays with Bounded Maximum (prefix helper)
+	25.	Maximum Number of Consecutive 1s
+	26.	Sum of Digits After Convert
+	27.	Count Elements With Strictly Smaller and Greater Elements
+	28.	Climbing Stairs (prefix variant)
+	29.	Candy Distribution (prefix peak detection)
+	30.	Check if Array Is Non-Decreasing After One Modification
+
+🟡 MEDIUM (40 Problems)
+
+A mix of subarray sums, mod prefix sums, 2D prefix sums, sliding window + prefix.
+	31.	Subarray Sum Equals K
+	32.	Count Submatrices with All Ones (Prefix 2D)
+	33.	Count Subarrays With XOR = K
+	34.	Largest Subarray with 0 Sum
+	35.	Longest Subarray With Sum Divisible by K
+	36.	Make Sum Divisible by P (LeetCode 1590)
+	37.	Minimum Size Subarray Sum
+	38.	Maximum Size Subarray Sum With Target
+	39.	Product of Array Except Self (Prefix/Suffix)
+	40.	Continuous Subarray Sum (k multiple)
+	41.	Longest Well-Performing Interval
+	42.	Binary Subarrays With Sum
+	43.	Count Nice Subarrays
+	44.	Minimum Number of K Consecutive Bit Flips
+	45.	Partition Array Into 3 Parts With Equal Sum
+	46.	Max Score from Card Points
+	47.	Maximum Erasure Value
+	48.	Range Sum Query - Mutable (Fenwick + prefix logic)
+	49.	Matrix Block Sum (2D prefix sum)
+	50.	Path Sum III (Tree prefix sum)
+	51.	2D Range Sum Query (NumMatrix)
+	52.	Maximum Sum Circular Subarray (Kadane + prefix)
+	53.	Minimum Operations to Reduce X to Zero
+	54.	Find All Anagrams (prefix freq)
+	55.	Subsequence Sum Queries
+	56.	Longest Turbulent Subarray (prefix comparisons)
+	57.	Number of Equal Row and Column Pairs
+	58.	Count Alternating Subarrays
+	59.	Longest Consecutive Sequence (prefix check)
+	60.	Flip String to Monotone Increasing (prefix ones/zeros)
+	61.	Minimum Speed to Arrive On Time (prefix search)
+	62.	K-sum Pairs Count using prefix frequency
+	63.	Max Length Subarray With Positive Product
+	64.	Detect Squares (prefix coordinate sums)
+	65.	Count Number of Homogenous Substrings
+	66.	Minimum Deletions to Make String Balanced
+	67.	Smallest Subarray With Given Sum ≥ K
+	68.	Number of Ways to Build Good Strings
+	69.	Count Valid Teams (prefix greater/less)
+	70.	Max Consecutive Answers (prefix feasibility window)
+
+🔴 HARD (30 Problems)
+
+Deep prefix-sum logic, 2D prefix, hashing, mod tricks, advanced subarray mathematics.
+	71.	Maximum Subarray Sum After One Operation
+	72.	Count Number of Nice Subarrays in Binary String
+	73.	Count Submatrices With Sum = Target (2D prefix)
+	74.	Maximum Sum of Rectangle No Larger Than K
+	75.	Shortest Subarray With Sum ≥ K (Deque + Prefix)
+	76.	Count Different Palindromic Subsequences
+	77.	Maximum Sum BST in Binary Tree (prefix like DP)
+	78.	Minimum Number of Operations to Make Array Continuous
+	79.	Number of Ways to Select Buildings
+	80.	Number of Good Paths (prefix parent grouping)
+	81.	Minimum Window Subsequence (prefix trick)
+	82.	Find K-th Largest Subarray Sum (prefix + heap)
+	83.	Largest Sum of Averages (DP + prefix)
+	84.	Partition Array for Maximum Sum
+	85.	Maximum Sum of Almost Unique Subarray
+	86.	Largest Subarray With Equal Number of 0s, 1s, and 2s
+	87.	Count Arithmetic Subsequences (prefix states)
+	88.	Minimum Cost to Make Array Equal (prefix on sorted)
+	89.	Find Median from Data Stream (prefix freq logic)
+	90.	Largest Rectangle in Histogram (prefix heights trick)
+	91.	Skyline Problem (prefix sweep)
+	92.	Trapping Rain Water (prefix left/right max)
+	93.	Count Increasing Paths in Grid (prefix caching)
+	94.	Max Sum of Rectangle (prefix + Kadane 2D)
+	95.	Max Chunks To Make Sorted II
+	96.	Count Splits With Equal Distinct Numbers (prefix freq)
+	97.	Minimum Number of Removals to Make Mountain Array
+	98.	Max Sum of 3 Non-Overlapping Subarrays (Prefix + DP)
+	99.	Palindromic Substrings (prefix center count)
+	100.	3D Prefix Sum – Count Cubes with Given Sum
+
