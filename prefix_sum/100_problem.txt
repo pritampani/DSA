@@ -8,7 +8,7 @@ Focus: Basic prefix sum usage, range queries, cumulative sum, difference arrays.
 	2.	Subarray Sum Equals K (count)
 	3.	Find Pivot Index
 	4.	Minimum Value to Get Positive Step-by-Step Sum
-	5.	Number of Ways to Split Array Into Three Subarrays With Equal Sum
+	#5.	Number of Ways to Split Array Into Three Subarrays With Equal Sum
 	6.	Range Sum Query – Immutable
 	7.	Check if Array Is a Valid Mountain
 	8.	Maximum Ascending Subarray Sum
