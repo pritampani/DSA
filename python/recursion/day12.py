@@ -2,23 +2,41 @@
 
 
 
+# class Solution:
+#     def issorted(self,arr,n):
+#         if n==0:
+#             return True
+#         return self.helper(arr,n,0)
+#     def helper(self,arr,n,i):
+#         if i==len(arr)-1:
+#             return True
+        
+#         if arr[i]>arr[i+1]:
+#             return False
+        
+#         else:
+#             remaningpart=self.helper(arr,n-1,i+1)
+#             return remaningpart
+
+# a=Solution()
+# print(a.issorted([1,2,3,4,5],5))   # True
+# print(a.issorted([1,2,3,9,5],5))   # False
+# print(a.issorted([],0))            
+
+
+
+#reverse a string using recursion
+
+
 class Solution:
-    def issorted(self,arr,n):
+    def reversestr(self,s)->str:
+        return self.helper(s,len(s)-1)
+    def helper(self,s,n):
+
         if n==0:
-            return True
-        return self.helper(arr,n,0)
-    def helper(self,arr,n,i):
-        if i==len(arr)-1:
-            return True
-        
-        if arr[i]>arr[i+1]:
-            return False
-        
-        else:
-            remaningpart=self.helper(arr,n-1,i+1)
-            return remaningpart
+            return s[n]
+        return s[n]+self.helper(s,n-1)
 
 a=Solution()
-print(a.issorted([1,2,3,4,5],5))   # True
-print(a.issorted([1,2,3,9,5],5))   # False
-print(a.issorted([],0))            
+print(a.reversestr('abcd'))
+print(a.reversestr('chiku'))
