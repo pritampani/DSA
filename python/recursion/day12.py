@@ -28,15 +28,38 @@
 #reverse a string using recursion
 
 
-class Solution:
-    def reversestr(self,s)->str:
-        return self.helper(s,len(s)-1)
-    def helper(self,s,n):
+# class Solution:
+#     def reversestr(self,s)->str:
+#         return self.helper(s,len(s)-1)
+#     def helper(self,s,n):
 
-        if n==0:
-            return s[n]
-        return s[n]+self.helper(s,n-1)
+#         if n==0:
+#             return s[n]
+#         return s[n]+self.helper(s,n-1)
+
+# a=Solution()
+# print(a.reversestr('abcd'))
+# print(a.reversestr('chiku'))
+
+
+
+
+#check for plandrom for of a string in recursive way
+
+
+class Solution:
+    def check_palandrom(self,s)->bool:
+        return self.helper(s,0,len(s)-1)
+    
+    def helper(self,s,i,j):
+        if s[i]!=s[j]:
+            return False
+        if i>=j:
+            return True
+        return self.helper(s,i+1,j-1)
+
 
 a=Solution()
-print(a.reversestr('abcd'))
-print(a.reversestr('chiku'))
+print(a.check_palandrom('abcba'))
+print(a.check_palandrom('chiku'))
+print(a.check_palandrom('ab'))
